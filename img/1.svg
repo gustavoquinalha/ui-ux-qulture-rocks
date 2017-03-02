@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="70px" viewBox="0 0 72 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>uEB13-idps-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="styleguide/Icon-Font" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Custom-Icons" transform="translate(-1021.000000, -72.000000)" stroke="#FFFFFF" stroke-width="2.1927">
+            <g id="uEB13-idps-icon" transform="translate(1022.003548, 73.000000)">
+                <path d="M47.936,17.963 L47.936,21.428 L33.339,21.428 L38.815,14.131 L33.339,6.836 L47.936,6.836 L47.936,17.963 Z M62.531,0.565 L62.531,33.648 L62.531,0.565 Z M62.531,17.963 L47.936,17.963 L47.936,3.367 L62.532,3.367 L62.531,17.963 Z" id="Shape"></path>
+                <path d="M69.031,67.524 L13.488,67.524 L0.984,67.524 M31.278,45.043 L29.292,45.043 L29.292,45.043 M13.689,67.524 L13.689,56.502 L31.278,56.502 L31.278,45.043 L49.399,45.043 L49.399,33.92 L66.987,33.92 L66.987,67.524 M13.14,56.502 L11.154,56.502 L11.154,56.502 M49.262,33.92 L47.274,33.92 L47.274,33.92 M68.975,33.92 L66.987,33.92 L66.987,33.92" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
