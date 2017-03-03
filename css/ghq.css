@@ -107,7 +107,7 @@ margin-left: 20px;
 .conteudo {
   width: 100%;
   min-height: 100%;
-  background: #efefef
+  background: #f4f4f4
 }
 
 .sidebar {
@@ -117,6 +117,26 @@ margin-left: 20px;
   align-items: flex-end;
   width: 90%;
 
+}
+.total {
+  padding-top: 10px
+}
+.to {
+  display: flex;
+  align-items: center;
+}
+.tot {
+  flex: 1
+}
+.toto {
+  padding-left: 10px;
+  color: #1ABC9C
+}
+.barra {
+  height: 10px;
+  border: 1px solid #1ABC9C;
+  background: #1ABC9C;
+  border-radius: 3px;
 }
 .rel {
   position: relative;
@@ -193,16 +213,22 @@ width: auto;
   display: flex;
   flex-wrap: wrap;
 }
-
+.titulo {
+  color: #fff
+}
 .tab {
   background: #fff;
   flex-grow: 1;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #1ABC9C;
   margin: 5px;
   border-radius: 3px;
   flex-basis: 200px;
   padding-top: 10px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.tab:hover {
+  transform: scale(1.1);
 }
 
 .tab-size {
@@ -216,7 +242,7 @@ width: auto;
 }
 .tab-size h3 {
     font-size: 12px;
-    color:#1ABC9C;
+    color: rgba(0, 0, 0, 0.5);;
 }
 
 .tab-txt {
@@ -226,4 +252,87 @@ width: auto;
   padding-bottom: 10px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 10px
+}
+.full {
+  width: 90%;
+}
+.cards1 {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.t1 {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+}
+.cards2 {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+.card1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-grow: 1;
+  margin: 10px;
+  background: #fff;
+  flex-basis: 200px;
+  margin-bottom: 10px!important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s
+}
+.card1:hover{
+  transform: scale(1.1);
+}
+.card1-topo {
+  display: flex;
+  align-items: center;
+}
+.card1-txt {
+  flex: 1
+}
+.tags-card1 {
+  flex: 1;
+  padding-top: 10px
+}
+.card1-txt span {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5)
+}
+.card1-img {
+  padding-right: 10px
+}
+.img1 {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.1);
+  background-position: center center!important;
+  background-size: cover!important;
+  border-radius: 50%
+}
+.tags1 {
+  display: flex;
+  font-size: 8px
+}
+.tags1 span {
+  margin-right: 2px;
+  border: 1px solid #1ABC9C;
+  color: #1ABC9C;
+  padding: 2px 5px;
+  border-radius: 5px
+}
+@media only screen and (max-width: 500px) {
+  .card1 {
+    min-width: 90%;
+    margin: 0;
+    max-width: 100%;
+  }
 }
